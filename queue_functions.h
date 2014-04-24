@@ -1,6 +1,9 @@
 #ifndef QUEUE_FUNCTIONS_H
 #define QUEUE_FUNCTIONS_H
 
+namespace MyQ
+{
+
 typedef int Data;
 
 class Queue
@@ -23,4 +26,8 @@ class Queue
         } *head, *tail;
 };
 
+}
+
 #endif // QUEUE_FUNCTIONS_H
+
+

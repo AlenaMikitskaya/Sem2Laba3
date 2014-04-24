@@ -2,6 +2,7 @@
 #include "queue_functions.h"
 #include "queue_console.h"
 using namespace std;
+using namespace MyQ;
 
 void menu();
 

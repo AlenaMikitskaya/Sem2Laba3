@@ -3,6 +3,9 @@
 
 using namespace std;
 
+namespace MyQ
+{
+
 Queue::Queue():
     head(nullptr),
     tail(nullptr)
@@ -80,5 +83,5 @@ bool Queue::isEmpty() const
     return (head&&tail);
 }
 
-
+}
 
